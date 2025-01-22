@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -29,7 +35,7 @@ p {
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0);
     padding: 1rem;
@@ -38,9 +44,16 @@ aside {
     text-align: center;
 }
 
+
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 5px;
 }
 
 main img {
@@ -49,6 +62,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -60,3 +74,14 @@ footer {
     border-top: 2px solid red;
     text-align: center;
 }
+
+/* Class Selectros */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
